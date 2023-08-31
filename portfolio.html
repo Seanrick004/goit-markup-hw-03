@@ -13,24 +13,26 @@
   </head>
   <body>
     <!--header section-->
-    <header class="header">
-      <div class="main-header-container">
-        <nav class="header-nav">
-          <a class="header-nav-webstudio-logo" href="/"><span class="iris">Web</span><span class="navy-blue">Studio</span></a>
-          <ul class="nav-lists">
-            <li class="nav-lists-item"><a class="nav-link" href="/">Studio</a></li>
-            <li class="nav-lists-item"><a class="nav-link" href="/goit-markup-hw-02/portfolio.html">Portfolio</a></li>
-            <li class="nav-lists-item"><a class="nav-link" href="/">Contacts</a></li>
-          </ul>
-        </nav>
-      </div>
-      <address>
-        <ul class="contact-info">
-          <li class="contact-info-item"><a class="contact-info-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li class="contact-info-item"><a class="contact-info-link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
-        </ul>
-      </address>
-    </header>
+    <div class=".container-body">
+      <header class="header">
+        <div class="main-header-container">
+          <nav class="header-nav"> 
+            <a class="header-nav-webstudio-logo" href="/"><span class="iris">Web</span><span class="navy-blue">Studio</span></a>
+            <ul class="nav-lists">
+              <li class="nav-lists-item"><a class="nav-link" href="/">Studio</a></li>
+              <li class="nav-lists-item"><a class="nav-link" href="/goit-markup-hw-02/portfolio.html">Portfolio</a></li>
+              <li class="nav-lists-item"><a class="nav-link" href="/">Contacts</a></li>
+            </ul>
+            <!--contact-info-->
+            <address>
+              <ul class="contact-info">
+                <li class="contact-info-item"><a class="contact-info-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li class="contact-info-item"><a class="contact-info-link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+              </ul>
+            </address>
+          </nav>
+        </div>
+      </header>
     <!--main-section-->
     <main class="main">
       <h2 hidden>Categories</h2>
@@ -93,13 +95,15 @@
             </ul>
         </section>
     </main>
-    <footer>
-      <a class="footer-logo" href="/"><span class="iris">Web</span><span class="navy-blue-footer">Studio</span></a>
+    <footer class="footer">
+      <div class="container-footer">
+        <a class="footer-logo" href="/"><span class="iris">Web</span><span class="navy-blue-footer">Studio</span></a>
         <p class="footer-description">
           Increase the flow of customers and <br>
           sales for your business with digital <br>
           marketing & growth solutions.
         </p>
-      </footer>
-    </body>
-  </html>
+      </div>
+    </footer>
+  </body>
+ </html>
