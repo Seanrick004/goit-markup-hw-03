@@ -140,8 +140,8 @@ button {
 .feature-lists-item {
     display: inline-flex;
     margin-right: 24px;
-    margin-top: 120px;
-    margin-bottom: 120px;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 .services-details-lists {
     display: inline-flex;
@@ -149,7 +149,7 @@ button {
 .services-details-lists-item {
     display: inline-flex;
     margin-right: 24px;
-    margin-bottom: 120px;
+    padding-bottom: 120px;
 }
 .members-section-maintext {
     padding-top: 120px;
@@ -164,11 +164,11 @@ button {
     flex-direction: column;
 }
 .member-lists-item:nth-child(1) {
-    margin-left: 156px;
+    padding-left: 156px;
 }
 .member-lists-item {
     margin-right: 24px;
-    margin-bottom: 120px;
+    padding-bottom: 120px;
     background: var(--white, #FFF);
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
