@@ -1,4 +1,4 @@
-{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -9,8 +9,7 @@
     font-style: normal;
     line-height: 24px;
     letter-spacing: 0.32px;
-    width: 1440px;
-  }
+}
   img {
     display: block;
     max-width: 100%;
@@ -74,8 +73,6 @@
 .header-nav-webstudio-logo {
     text-decoration: none;
     align-items: center;
-    margin-left: 156px;
-    margin-right: 76px
 } 
 .nav-lists-item {
     display: inline-flex;
@@ -84,6 +81,9 @@
     display: inline-flex;
     align-items: flex-start;
     gap: 40px;
+}
+.header-nav-webstudio-logo {
+    margin-right: 76px;
 }
 .contact-info-item {
     display: inline-flex;
@@ -95,20 +95,24 @@
 .header-nav {
     display: inline-flex;
 }
+.header {
+    padding: 24px 0;
+    border-bottom: 1px solid var(--cornflower);
+}
 .main-header-container {
     display: inline-flex;
-    border-bottom: 1px solid var(--cornflower);
     display: flex;
-    width: 1440px;
-    padding: 24px 15px;
     justify-content: space-between;
+}
+.container {
+    width: 1158px;
+    margin: 0 auto;
 }
 address {
     display: inline-flex;  
 }
 .main {
     height: 2076px;
-    width: 1440px;
 }
 address {
     font-style: normal;
@@ -117,6 +121,14 @@ address {
     display: inline-flex;
     flex-wrap: wrap;
     gap: 24px;
+}
+.projects-lists-container {
+    display: inline-flex;
+    flex-wrap: wrap;
+    padding-top: 0;
+    gap: 24px;
+    margin-bottom: 48px;
+    padding: 0 156px
 }
 button {
     font-family:inherit;
@@ -127,21 +139,33 @@ button {
 .hero-order-service-button {
     text-align: center;
     display: inline-flex;
-    align-items: flex-start;
-    margin-left: 636px;
-    margin-top: 48px;
+    align-items: center;
+
 }
 .features {
     display: inline-flex;
+    align-items: center;
+}
+.container-section2 {
+    padding: 120px 0px;
+}
+.container-section3 {
+    padding: 120px 0px;
+}
+.container-section4 {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.member-list-item-container {
+    padding: 32px 0px;
 }
 .feature-lists {
     display: inline-flex;
+    flex-direction: row;
+    gap: 24px;
 }
 .feature-lists-item {
     display: inline-flex;
-    margin-right: 24px;
-    padding-top: 120px;
-    padding-bottom: 120px;
 }
 .services-details-lists {
     display: inline-flex;
@@ -149,10 +173,8 @@ button {
 .services-details-lists-item {
     display: inline-flex;
     margin-right: 24px;
-    padding-bottom: 120px;
 }
 .members-section-maintext {
-    padding-top: 120px;
     text-align: center;
     margin-bottom: 72px;
 }
@@ -163,12 +185,7 @@ button {
     display: inline-flex;
     flex-direction: column;
 }
-.member-lists-item:nth-child(1) {
-    padding-left: 156px;
-}
 .member-lists-item {
-    margin-right: 24px;
-    padding-bottom: 120px;
     background: var(--white, #FFF);
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
@@ -177,17 +194,10 @@ button {
     background-color: var(--white);
 }
 .member-list-item-name {
-    padding-top: 32px;
-    padding-bottom: 8px;
-}
-.member-list-item-position {
-    padding-bottom: 32px;
+    margin-bottom: 8px;
 }
 .services-maintext {
     margin-bottom: 72px;
-}
-.feature-lists-item:nth-child(1) {
-    margin-left: 156px;
 }
 .services-details-lists-item:nth-child(1) {
     margin-left: 156px;
@@ -195,18 +205,20 @@ button {
 .footer {
     display: inline-flex;
     flex-direction: column;
-    margin-top: 120px;
-    padding-top: 100px;
 }
-
+.container-footer {
+    padding: 100px 100px;
+    margin: 100px;
+}
 .footer-logo {
     margin-left: 156px;
     align-items:center;
     display: inline-flex;
 }
-.categories {
+.categories-container {
     display: inline-flex;
-    margin-top: 96px;
+    padding-top: 96px;
+    padding-bottom: 72px;
 }
 .categories-button {
     display: inline-flex;
@@ -219,8 +231,6 @@ button {
     margin-bottom: 72px;
 }
 .footer-description {
-    margin-top: 16px;
-    margin-left: 156px;
     display: inline-flex;
 }
 .feature-lists-item {
@@ -233,8 +243,6 @@ button {
 .hero {
     height: 600px;
     flex-shrink: 0;
-    width: 1440px;
-    flex-direction: column;
 }
 .footer-logo {
     text-decoration: none;
@@ -279,6 +287,7 @@ button {
     font-size: 56px;
     line-height: 1.07em;
     letter-spacing: 1.12px;
+    margin-bottom: 48px;
 }
 .hero {
     background-color: var(--navyblue);
@@ -303,8 +312,8 @@ button {
 }
 .hero-order-service-button {
     background-color: var(--iris);
-    display: inline-flex;
-    align-items: flex-start;
+    display: flex;
+    align-items: center;
     gap: 10px;
     padding: 16px 32px;
     border-radius: 4px;
@@ -314,16 +323,16 @@ button {
     letter-spacing: 0.64px;
     font-size: 16px;
     color: var(--white);
+    margin:auto
 }
 
 .feature-lists-item-text {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 8px;
     width: 264px;
     color: var(--navyblue);
-    width: 264px
+    margin-bottom: 8px;
 }
 .feature-lists-item-description {
     width: 264px;
@@ -375,7 +384,6 @@ footer {
     background-color: var(--navyblue);
     height: 312px;
     flex-shrink: 0;
-    width: 1440px;
 }
 .footer-description {
     color: var(--cloud);
@@ -402,10 +410,6 @@ footer {
     text-transform: capitalize;
     font-size: 36px;
 }
-.container-body {
-    width: 1158px;
-    margin: 0 auto;
-}
 .categories-button {
     text-align: center;
     font-size: 16px;
@@ -431,15 +435,6 @@ footer {
     letter-spacing: 0.4px;
     font-size: 20px;
 }
-.projects-lists-item:nth-child(1) {
-    margin-left: 156px;
-}
-.projects-lists-item:nth-child(4) {
-    margin-left: 156px;
-}
-.projects-lists-item:nth-child(7) {
-    margin-left: 156px;
-}
 .projects-lists-item-subtext {
     color: var(--slate);
     line-height: 1.5em;
@@ -449,7 +444,6 @@ footer {
 .projects-lists-item {
     width: 360px;
     height: 420px;
-    padding-bottom: 0px;
     flex-direction: column;
     align-items: flex-start;
     flex-shrink: 0;
@@ -457,15 +451,8 @@ footer {
     border: 1px solid var(--cornflower);
     background: var(--white);
 }
-.projects-lists-item-text, .projects-lists-item-subtext {
-    margin-left: 16px;
-}
 .projects-lists-item-img {
     width: 360px;
     height: 300px;
     flex-shrink: 0;
-}
-.projects-lists-item-text {
-    padding-top: 32px;
-    padding-bottom: 8px;
 }
