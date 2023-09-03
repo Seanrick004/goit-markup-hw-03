@@ -131,6 +131,7 @@ address {
      padding: 32px 16px;
      flex-direction: column;
      display: flex;
+     width: 100%;
 }
 button {
     font-family:inherit;
@@ -308,6 +309,9 @@ button {
     width: 264px;
     color: var(--navyblue);
     margin-bottom: 8px;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0.4px;
 }
 .feature-lists-item-description {
     width: 264px;
@@ -405,9 +409,6 @@ footer {
     border: 1px solid var(--cornflower);
     background: var(--cloud);
     display: flex;
-}
-.projects-lists li {
-    list-style: none; 
 }
 .projects-lists-item-text {
     color: var(--navyblue);
